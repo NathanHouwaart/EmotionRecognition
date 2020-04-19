@@ -2,3 +2,5 @@
 
 out/
 data/
+
+!src/out/models/VGG13_majority - 200 epoch/train.log
