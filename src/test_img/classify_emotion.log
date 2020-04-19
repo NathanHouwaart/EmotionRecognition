@@ -1,0 +1,107 @@
+Input: NodeArg(name='Input2505', type='tensor(float)', shape=[1, 1, 64, 64])
+Input: NodeArg(name='Input2506', type='tensor(float)', shape=[1, 8])
+Output: NodeArg(name='aggregateLoss_Output', type='tensor(float)', shape=[])
+Output: NodeArg(name='aggregateEvalMetric_Output', type='tensor(float)', shape=[])
+Output: NodeArg(name='Plus2840_Output_0_attach_noop_', type='tensor(float)', shape=[1, 8])
+Output: NodeArg(name='Negate3026_Output_0_attach_noop_', type='tensor(float)', shape=[1, 1])
+Output: NodeArg(name='Minus3038_Output_0_attach_noop_', type='tensor(float)', shape=[1, 1])
+
+
+File: fer0032220.png
+Emotion: sadness
+Probability: 52.07%
+All emotions: ['sadness', 'anger', 'neutral', 'contempt', 'disgust', 'surprise', 'fear', 'happiness']
+All probabilities: ['52.07%', '39.66%', '8.23%', '0.03%', '0.01%', '0.0%', '0.0%', '0.0%']
+Runtime grayscale  avg:   0.000000ms  stdev:   0.000000ms
+Runtime resize     avg:   0.000000ms  stdev:   0.000000ms
+Runtime model      avg:   0.000000ms  stdev:   0.000000ms
+
+
+File: fer0032222.png
+Emotion: sadness
+Probability: 100.0%
+All emotions: ['sadness', 'neutral', 'anger', 'surprise', 'fear', 'contempt', 'disgust', 'happiness']
+All probabilities: ['100.0%', '0.0%', '0.0%', '0.0%', '0.0%', '0.0%', '0.0%', '0.0%']
+Runtime grayscale  avg:   0.000000ms  stdev:   0.000000ms
+Runtime resize     avg:   0.000000ms  stdev:   0.000000ms
+Runtime model      avg:   0.000000ms  stdev:   0.000000ms
+
+
+File: fer0032223.png
+Emotion: neutral
+Probability: 100.0%
+All emotions: ['neutral', 'sadness', 'contempt', 'anger', 'surprise', 'happiness', 'disgust', 'fear']
+All probabilities: ['100.0%', '0.0%', '0.0%', '0.0%', '0.0%', '0.0%', '0.0%', '0.0%']
+Runtime grayscale  avg:   0.000000ms  stdev:   0.000000ms
+Runtime resize     avg:   0.000000ms  stdev:   0.000000ms
+Runtime model      avg:   0.000000ms  stdev:   0.000000ms
+
+
+File: fer0032224.png
+Emotion: anger
+Probability: 100.0%
+All emotions: ['anger', 'surprise', 'disgust', 'contempt', 'fear', 'neutral', 'sadness', 'happiness']
+All probabilities: ['100.0%', '0.0%', '0.0%', '0.0%', '0.0%', '0.0%', '0.0%', '0.0%']
+Runtime grayscale  avg:   0.000000ms  stdev:   0.000000ms
+Runtime resize     avg:   0.000000ms  stdev:   0.000000ms
+Runtime model      avg:   0.000000ms  stdev:   0.000000ms
+
+
+File: fer0032225.png
+Emotion: anger
+Probability: 96.3%
+All emotions: ['anger', 'happiness', 'fear', 'surprise', 'disgust', 'contempt', 'sadness', 'neutral']
+All probabilities: ['96.3%', '1.66%', '1.65%', '0.4%', '0.0%', '0.0%', '0.0%', '0.0%']
+Runtime grayscale  avg:   0.000000ms  stdev:   0.000000ms
+Runtime resize     avg:   0.000000ms  stdev:   0.000000ms
+Runtime model      avg:   0.000000ms  stdev:   0.000000ms
+
+
+File: fer0032226.png
+Emotion: neutral
+Probability: 58.98%
+All emotions: ['neutral', 'sadness', 'surprise', 'fear', 'anger', 'contempt', 'disgust', 'happiness']
+All probabilities: ['58.98%', '36.87%', '4.04%', '0.06%', '0.03%', '0.02%', '0.0%', '0.0%']
+Runtime grayscale  avg:   0.000000ms  stdev:   0.000000ms
+Runtime resize     avg:   0.000000ms  stdev:   0.000000ms
+Runtime model      avg:   0.000000ms  stdev:   0.000000ms
+
+
+File: fer0032227.png
+Emotion: happiness
+Probability: 100.0%
+All emotions: ['happiness', 'anger', 'sadness', 'contempt', 'fear', 'disgust', 'surprise', 'neutral']
+All probabilities: ['100.0%', '0.0%', '0.0%', '0.0%', '0.0%', '0.0%', '0.0%', '0.0%']
+Runtime grayscale  avg:   0.000000ms  stdev:   0.000000ms
+Runtime resize     avg:   0.000000ms  stdev:   0.000000ms
+Runtime model      avg:   0.000000ms  stdev:   0.000000ms
+
+
+File: fer0032228.png
+Emotion: anger
+Probability: 78.27%
+All emotions: ['anger', 'happiness', 'surprise', 'fear', 'disgust', 'contempt', 'sadness', 'neutral']
+All probabilities: ['78.27%', '21.73%', '0.0%', '0.0%', '0.0%', '0.0%', '0.0%', '0.0%']
+Runtime grayscale  avg:   0.000000ms  stdev:   0.000000ms
+Runtime resize     avg:   0.000000ms  stdev:   0.000000ms
+Runtime model      avg:   0.000000ms  stdev:   0.000000ms
+
+
+File: fer0032229.png
+Emotion: happiness
+Probability: 100.0%
+All emotions: ['happiness', 'contempt', 'fear', 'disgust', 'anger', 'sadness', 'surprise', 'neutral']
+All probabilities: ['100.0%', '0.0%', '0.0%', '0.0%', '0.0%', '0.0%', '0.0%', '0.0%']
+Runtime grayscale  avg:   0.000000ms  stdev:   0.000000ms
+Runtime resize     avg:   0.000000ms  stdev:   0.000000ms
+Runtime model      avg:   0.000000ms  stdev:   0.000000ms
+
+
+File: fer0032230.png
+Emotion: happiness
+Probability: 100.0%
+All emotions: ['happiness', 'surprise', 'fear', 'anger', 'contempt', 'disgust', 'sadness', 'neutral']
+All probabilities: ['100.0%', '0.0%', '0.0%', '0.0%', '0.0%', '0.0%', '0.0%', '0.0%']
+Runtime grayscale  avg:   0.000000ms  stdev:   0.000000ms
+Runtime resize     avg:   0.000000ms  stdev:   0.000000ms
+Runtime model      avg:   0.000000ms  stdev:   0.000000ms
