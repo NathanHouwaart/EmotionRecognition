@@ -1,0 +1,852 @@
+INFO:root:Starting with training mode majority using VGG13 model and max epochs 200.
+INFO:root:Loading data...
+INFO:root:Loading ./out\FER2013Train
+INFO:root:Loading ./out\FER2013Valid
+INFO:root:Loading ./out\FER2013Test
+INFO:root:          	Train	Val	Test
+INFO:root:neutral   	8733	1180	1083
+INFO:root:happiness 	7284	862	892
+INFO:root:surprise  	3136	411	394
+INFO:root:sadness   	3022	348	382
+INFO:root:anger     	2098	289	269
+INFO:root:disgust   	116	25	16
+INFO:root:fear      	536	60	86
+INFO:root:contempt  	120	16	15
+INFO:root:Start training...
+INFO:root:Epoch 0: took 53.773s
+INFO:root:  training loss:	4.034819e+04
+INFO:root:  training accuracy:		33.84 %
+INFO:root:  validation accuracy:		36.98 %
+INFO:root:  test accuracy:		34.52 %
+INFO:root:Epoch 1: took 49.819s
+INFO:root:  training loss:	3.970376e+04
+INFO:root:  training accuracy:		34.42 %
+INFO:root:  validation accuracy:		39.83 %
+INFO:root:  test accuracy:		38.86 %
+INFO:root:Epoch 2: took 49.481s
+INFO:root:  training loss:	3.890133e+04
+INFO:root:  training accuracy:		39.22 %
+INFO:root:  validation accuracy:		46.51 %
+INFO:root:  test accuracy:		45.33 %
+INFO:root:Epoch 3: took 49.477s
+INFO:root:  training loss:	3.636221e+04
+INFO:root:  training accuracy:		47.04 %
+INFO:root:  validation accuracy:		52.71 %
+INFO:root:  test accuracy:		51.64 %
+INFO:root:Epoch 4: took 49.553s
+INFO:root:  training loss:	3.249240e+04
+INFO:root:  training accuracy:		53.92 %
+INFO:root:  validation accuracy:		61.89 %
+INFO:root:  test accuracy:		60.98 %
+INFO:root:Epoch 5: took 49.669s
+INFO:root:  training loss:	2.859016e+04
+INFO:root:  training accuracy:		60.98 %
+INFO:root:  validation accuracy:		68.32 %
+INFO:root:  test accuracy:		66.78 %
+INFO:root:Epoch 6: took 49.913s
+INFO:root:  training loss:	2.545676e+04
+INFO:root:  training accuracy:		65.16 %
+INFO:root:  validation accuracy:		70.26 %
+INFO:root:  test accuracy:		69.01 %
+INFO:root:Epoch 7: took 49.546s
+INFO:root:  training loss:	2.349498e+04
+INFO:root:  training accuracy:		67.55 %
+INFO:root:  validation accuracy:		71.61 %
+INFO:root:  test accuracy:		70.39 %
+INFO:root:Epoch 8: took 49.699s
+INFO:root:  training loss:	2.170493e+04
+INFO:root:  training accuracy:		69.95 %
+INFO:root:  validation accuracy:		73.02 %
+INFO:root:  test accuracy:		71.53 %
+INFO:root:Epoch 9: took 49.587s
+INFO:root:  training loss:	2.039922e+04
+INFO:root:  training accuracy:		71.84 %
+INFO:root:  validation accuracy:		76.09 %
+INFO:root:  test accuracy:		74.56 %
+INFO:root:Epoch 10: took 49.325s
+INFO:root:  training loss:	1.912382e+04
+INFO:root:  training accuracy:		73.23 %
+INFO:root:  validation accuracy:		77.03 %
+INFO:root:  test accuracy:		75.20 %
+INFO:root:Epoch 11: took 49.253s
+INFO:root:  training loss:	1.833177e+04
+INFO:root:  training accuracy:		74.49 %
+INFO:root:  validation accuracy:		77.97 %
+INFO:root:  test accuracy:		76.70 %
+INFO:root:Epoch 12: took 45.969s
+INFO:root:  training loss:	1.736079e+04
+INFO:root:  training accuracy:		75.76 %
+INFO:root:  validation accuracy:		77.56 %
+INFO:root:Epoch 13: took 45.858s
+INFO:root:  training loss:	1.679569e+04
+INFO:root:  training accuracy:		76.56 %
+INFO:root:  validation accuracy:		77.72 %
+INFO:root:Epoch 14: took 49.186s
+INFO:root:  training loss:	1.603777e+04
+INFO:root:  training accuracy:		77.64 %
+INFO:root:  validation accuracy:		78.82 %
+INFO:root:  test accuracy:		78.48 %
+INFO:root:Epoch 15: took 49.396s
+INFO:root:  training loss:	1.561136e+04
+INFO:root:  training accuracy:		78.47 %
+INFO:root:  validation accuracy:		80.63 %
+INFO:root:  test accuracy:		78.99 %
+INFO:root:Epoch 16: took 46.018s
+INFO:root:  training loss:	1.502268e+04
+INFO:root:  training accuracy:		79.03 %
+INFO:root:  validation accuracy:		80.41 %
+INFO:root:Epoch 17: took 46.028s
+INFO:root:  training loss:	1.460403e+04
+INFO:root:  training accuracy:		79.31 %
+INFO:root:  validation accuracy:		79.57 %
+INFO:root:Epoch 18: took 49.273s
+INFO:root:  training loss:	1.439969e+04
+INFO:root:  training accuracy:		79.83 %
+INFO:root:  validation accuracy:		81.35 %
+INFO:root:  test accuracy:		79.95 %
+INFO:root:Epoch 19: took 49.222s
+INFO:root:  training loss:	1.404564e+04
+INFO:root:  training accuracy:		80.18 %
+INFO:root:  validation accuracy:		81.45 %
+INFO:root:  test accuracy:		81.10 %
+INFO:root:Epoch 20: took 49.120s
+INFO:root:  training loss:	1.268879e+04
+INFO:root:  training accuracy:		81.80 %
+INFO:root:  validation accuracy:		83.11 %
+INFO:root:  test accuracy:		82.47 %
+INFO:root:Epoch 21: took 48.970s
+INFO:root:  training loss:	1.218714e+04
+INFO:root:  training accuracy:		82.62 %
+INFO:root:  validation accuracy:		83.70 %
+INFO:root:  test accuracy:		82.75 %
+INFO:root:Epoch 22: took 45.764s
+INFO:root:  training loss:	1.196395e+04
+INFO:root:  training accuracy:		82.87 %
+INFO:root:  validation accuracy:		83.14 %
+INFO:root:Epoch 23: took 45.781s
+INFO:root:  training loss:	1.166103e+04
+INFO:root:  training accuracy:		83.63 %
+INFO:root:  validation accuracy:		83.14 %
+INFO:root:Epoch 24: took 49.180s
+INFO:root:  training loss:	1.150472e+04
+INFO:root:  training accuracy:		83.53 %
+INFO:root:  validation accuracy:		84.08 %
+INFO:root:  test accuracy:		83.74 %
+INFO:root:Epoch 25: took 45.823s
+INFO:root:  training loss:	1.138268e+04
+INFO:root:  training accuracy:		83.74 %
+INFO:root:  validation accuracy:		84.02 %
+INFO:root:Epoch 26: took 45.962s
+INFO:root:  training loss:	1.126672e+04
+INFO:root:  training accuracy:		83.91 %
+INFO:root:  validation accuracy:		83.14 %
+INFO:root:Epoch 27: took 46.031s
+INFO:root:  training loss:	1.103210e+04
+INFO:root:  training accuracy:		84.41 %
+INFO:root:  validation accuracy:		83.86 %
+INFO:root:Epoch 28: took 46.008s
+INFO:root:  training loss:	1.104310e+04
+INFO:root:  training accuracy:		84.19 %
+INFO:root:  validation accuracy:		83.48 %
+INFO:root:Epoch 29: took 45.969s
+INFO:root:  training loss:	1.074083e+04
+INFO:root:  training accuracy:		84.72 %
+INFO:root:  validation accuracy:		83.86 %
+INFO:root:Epoch 30: took 49.303s
+INFO:root:  training loss:	1.067419e+04
+INFO:root:  training accuracy:		84.95 %
+INFO:root:  validation accuracy:		84.49 %
+INFO:root:  test accuracy:		84.38 %
+INFO:root:Epoch 31: took 46.035s
+INFO:root:  training loss:	1.045450e+04
+INFO:root:  training accuracy:		85.25 %
+INFO:root:  validation accuracy:		84.49 %
+INFO:root:Epoch 32: took 45.996s
+INFO:root:  training loss:	1.035194e+04
+INFO:root:  training accuracy:		85.05 %
+INFO:root:  validation accuracy:		84.30 %
+INFO:root:Epoch 33: took 49.289s
+INFO:root:  training loss:	1.010693e+04
+INFO:root:  training accuracy:		85.53 %
+INFO:root:  validation accuracy:		84.61 %
+INFO:root:  test accuracy:		84.44 %
+INFO:root:Epoch 34: took 45.998s
+INFO:root:  training loss:	9.916382e+03
+INFO:root:  training accuracy:		85.87 %
+INFO:root:  validation accuracy:		84.21 %
+INFO:root:Epoch 35: took 49.310s
+INFO:root:  training loss:	9.925837e+03
+INFO:root:  training accuracy:		85.75 %
+INFO:root:  validation accuracy:		85.05 %
+INFO:root:  test accuracy:		84.86 %
+INFO:root:Epoch 36: took 46.042s
+INFO:root:  training loss:	9.787513e+03
+INFO:root:  training accuracy:		86.05 %
+INFO:root:  validation accuracy:		84.68 %
+INFO:root:Epoch 37: took 46.033s
+INFO:root:  training loss:	9.687234e+03
+INFO:root:  training accuracy:		85.87 %
+INFO:root:  validation accuracy:		84.77 %
+INFO:root:Epoch 38: took 46.049s
+INFO:root:  training loss:	9.524037e+03
+INFO:root:  training accuracy:		86.29 %
+INFO:root:  validation accuracy:		84.93 %
+INFO:root:Epoch 39: took 46.026s
+INFO:root:  training loss:	9.514555e+03
+INFO:root:  training accuracy:		86.54 %
+INFO:root:  validation accuracy:		84.83 %
+INFO:root:Epoch 40: took 49.323s
+INFO:root:  training loss:	8.631551e+03
+INFO:root:  training accuracy:		87.74 %
+INFO:root:  validation accuracy:		85.46 %
+INFO:root:  test accuracy:		85.91 %
+INFO:root:Epoch 41: took 49.265s
+INFO:root:  training loss:	8.256516e+03
+INFO:root:  training accuracy:		88.25 %
+INFO:root:  validation accuracy:		85.52 %
+INFO:root:  test accuracy:		86.01 %
+INFO:root:Epoch 42: took 49.307s
+INFO:root:  training loss:	8.061427e+03
+INFO:root:  training accuracy:		88.55 %
+INFO:root:  validation accuracy:		85.55 %
+INFO:root:  test accuracy:		85.78 %
+INFO:root:Epoch 43: took 46.020s
+INFO:root:  training loss:	7.936758e+03
+INFO:root:  training accuracy:		88.62 %
+INFO:root:  validation accuracy:		84.99 %
+INFO:root:Epoch 44: took 45.939s
+INFO:root:  training loss:	7.942047e+03
+INFO:root:  training accuracy:		88.70 %
+INFO:root:  validation accuracy:		85.55 %
+INFO:root:Epoch 45: took 45.927s
+INFO:root:  training loss:	7.788504e+03
+INFO:root:  training accuracy:		88.55 %
+INFO:root:  validation accuracy:		85.30 %
+INFO:root:Epoch 46: took 49.162s
+INFO:root:  training loss:	7.761058e+03
+INFO:root:  training accuracy:		88.89 %
+INFO:root:  validation accuracy:		85.74 %
+INFO:root:  test accuracy:		85.85 %
+INFO:root:Epoch 47: took 45.937s
+INFO:root:  training loss:	7.714762e+03
+INFO:root:  training accuracy:		88.90 %
+INFO:root:  validation accuracy:		85.33 %
+INFO:root:Epoch 48: took 45.956s
+INFO:root:  training loss:	7.578448e+03
+INFO:root:  training accuracy:		89.16 %
+INFO:root:  validation accuracy:		85.68 %
+INFO:root:Epoch 49: took 49.145s
+INFO:root:  training loss:	7.554340e+03
+INFO:root:  training accuracy:		89.06 %
+INFO:root:  validation accuracy:		85.90 %
+INFO:root:  test accuracy:		86.20 %
+INFO:root:Epoch 50: took 48.937s
+INFO:root:  training loss:	7.530152e+03
+INFO:root:  training accuracy:		89.29 %
+INFO:root:  validation accuracy:		86.02 %
+INFO:root:  test accuracy:		86.07 %
+INFO:root:Epoch 51: took 45.773s
+INFO:root:  training loss:	7.497548e+03
+INFO:root:  training accuracy:		89.52 %
+INFO:root:  validation accuracy:		85.46 %
+INFO:root:Epoch 52: took 45.841s
+INFO:root:  training loss:	7.547749e+03
+INFO:root:  training accuracy:		89.13 %
+INFO:root:  validation accuracy:		85.96 %
+INFO:root:Epoch 53: took 45.781s
+INFO:root:  training loss:	7.421324e+03
+INFO:root:  training accuracy:		89.38 %
+INFO:root:  validation accuracy:		85.62 %
+INFO:root:Epoch 54: took 45.920s
+INFO:root:  training loss:	7.237740e+03
+INFO:root:  training accuracy:		89.51 %
+INFO:root:  validation accuracy:		85.84 %
+INFO:root:Epoch 55: took 45.950s
+INFO:root:  training loss:	7.419223e+03
+INFO:root:  training accuracy:		89.23 %
+INFO:root:  validation accuracy:		85.58 %
+INFO:root:Epoch 56: took 45.909s
+INFO:root:  training loss:	7.209402e+03
+INFO:root:  training accuracy:		89.65 %
+INFO:root:  validation accuracy:		85.87 %
+INFO:root:Epoch 57: took 45.900s
+INFO:root:  training loss:	7.198169e+03
+INFO:root:  training accuracy:		89.56 %
+INFO:root:  validation accuracy:		85.87 %
+INFO:root:Epoch 58: took 45.895s
+INFO:root:  training loss:	7.144927e+03
+INFO:root:  training accuracy:		89.59 %
+INFO:root:  validation accuracy:		85.84 %
+INFO:root:Epoch 59: took 45.917s
+INFO:root:  training loss:	7.093641e+03
+INFO:root:  training accuracy:		89.65 %
+INFO:root:  validation accuracy:		85.90 %
+INFO:root:Epoch 60: took 49.192s
+INFO:root:  training loss:	7.009125e+03
+INFO:root:  training accuracy:		89.76 %
+INFO:root:  validation accuracy:		86.18 %
+INFO:root:  test accuracy:		86.29 %
+INFO:root:Epoch 61: took 45.961s
+INFO:root:  training loss:	7.036912e+03
+INFO:root:  training accuracy:		89.74 %
+INFO:root:  validation accuracy:		85.87 %
+INFO:root:Epoch 62: took 45.884s
+INFO:root:  training loss:	7.037151e+03
+INFO:root:  training accuracy:		89.98 %
+INFO:root:  validation accuracy:		85.96 %
+INFO:root:Epoch 63: took 45.919s
+INFO:root:  training loss:	7.006388e+03
+INFO:root:  training accuracy:		89.91 %
+INFO:root:  validation accuracy:		86.05 %
+INFO:root:Epoch 64: took 45.955s
+INFO:root:  training loss:	6.886799e+03
+INFO:root:  training accuracy:		89.97 %
+INFO:root:  validation accuracy:		85.99 %
+INFO:root:Epoch 65: took 53.291s
+INFO:root:  training loss:	6.801986e+03
+INFO:root:  training accuracy:		90.21 %
+INFO:root:  validation accuracy:		86.21 %
+INFO:root:  test accuracy:		86.20 %
+INFO:root:Epoch 66: took 46.471s
+INFO:root:  training loss:	6.818521e+03
+INFO:root:  training accuracy:		90.24 %
+INFO:root:  validation accuracy:		85.93 %
+INFO:root:Epoch 67: took 45.949s
+INFO:root:  training loss:	6.774153e+03
+INFO:root:  training accuracy:		90.29 %
+INFO:root:  validation accuracy:		85.74 %
+INFO:root:Epoch 68: took 49.264s
+INFO:root:  training loss:	6.710712e+03
+INFO:root:  training accuracy:		90.36 %
+INFO:root:  validation accuracy:		86.31 %
+INFO:root:  test accuracy:		86.52 %
+INFO:root:Epoch 69: took 45.849s
+INFO:root:  training loss:	6.695605e+03
+INFO:root:  training accuracy:		90.35 %
+INFO:root:  validation accuracy:		85.62 %
+INFO:root:Epoch 70: took 45.932s
+INFO:root:  training loss:	6.822028e+03
+INFO:root:  training accuracy:		90.27 %
+INFO:root:  validation accuracy:		85.90 %
+INFO:root:Epoch 71: took 45.834s
+INFO:root:  training loss:	6.610155e+03
+INFO:root:  training accuracy:		90.66 %
+INFO:root:  validation accuracy:		85.80 %
+INFO:root:Epoch 72: took 45.742s
+INFO:root:  training loss:	6.490639e+03
+INFO:root:  training accuracy:		90.55 %
+INFO:root:  validation accuracy:		86.27 %
+INFO:root:Epoch 73: took 46.025s
+INFO:root:  training loss:	6.579360e+03
+INFO:root:  training accuracy:		90.45 %
+INFO:root:  validation accuracy:		85.84 %
+INFO:root:Epoch 74: took 45.850s
+INFO:root:  training loss:	6.551726e+03
+INFO:root:  training accuracy:		90.47 %
+INFO:root:  validation accuracy:		85.65 %
+INFO:root:Epoch 75: took 45.714s
+INFO:root:  training loss:	6.405393e+03
+INFO:root:  training accuracy:		90.62 %
+INFO:root:  validation accuracy:		85.87 %
+INFO:root:Epoch 76: took 45.706s
+INFO:root:  training loss:	6.456944e+03
+INFO:root:  training accuracy:		90.58 %
+INFO:root:  validation accuracy:		85.71 %
+INFO:root:Epoch 77: took 45.650s
+INFO:root:  training loss:	6.397583e+03
+INFO:root:  training accuracy:		90.83 %
+INFO:root:  validation accuracy:		86.18 %
+INFO:root:Epoch 78: took 45.657s
+INFO:root:  training loss:	6.382345e+03
+INFO:root:  training accuracy:		90.84 %
+INFO:root:  validation accuracy:		86.12 %
+INFO:root:Epoch 79: took 45.714s
+INFO:root:  training loss:	6.275215e+03
+INFO:root:  training accuracy:		90.95 %
+INFO:root:  validation accuracy:		86.02 %
+INFO:root:Epoch 80: took 45.697s
+INFO:root:  training loss:	6.378875e+03
+INFO:root:  training accuracy:		90.69 %
+INFO:root:  validation accuracy:		85.96 %
+INFO:root:Epoch 81: took 45.762s
+INFO:root:  training loss:	6.261193e+03
+INFO:root:  training accuracy:		90.88 %
+INFO:root:  validation accuracy:		85.93 %
+INFO:root:Epoch 82: took 45.700s
+INFO:root:  training loss:	6.223652e+03
+INFO:root:  training accuracy:		90.92 %
+INFO:root:  validation accuracy:		85.99 %
+INFO:root:Epoch 83: took 45.780s
+INFO:root:  training loss:	6.318973e+03
+INFO:root:  training accuracy:		90.79 %
+INFO:root:  validation accuracy:		85.55 %
+INFO:root:Epoch 84: took 45.864s
+INFO:root:  training loss:	6.185322e+03
+INFO:root:  training accuracy:		90.94 %
+INFO:root:  validation accuracy:		85.96 %
+INFO:root:Epoch 85: took 45.833s
+INFO:root:  training loss:	6.041891e+03
+INFO:root:  training accuracy:		91.20 %
+INFO:root:  validation accuracy:		85.99 %
+INFO:root:Epoch 86: took 45.723s
+INFO:root:  training loss:	6.055545e+03
+INFO:root:  training accuracy:		91.18 %
+INFO:root:  validation accuracy:		86.02 %
+INFO:root:Epoch 87: took 45.803s
+INFO:root:  training loss:	5.970375e+03
+INFO:root:  training accuracy:		91.29 %
+INFO:root:  validation accuracy:		86.05 %
+INFO:root:Epoch 88: took 45.837s
+INFO:root:  training loss:	6.044427e+03
+INFO:root:  training accuracy:		91.19 %
+INFO:root:  validation accuracy:		85.24 %
+INFO:root:Epoch 89: took 45.662s
+INFO:root:  training loss:	6.016030e+03
+INFO:root:  training accuracy:		91.34 %
+INFO:root:  validation accuracy:		85.55 %
+INFO:root:Epoch 90: took 45.729s
+INFO:root:  training loss:	5.954234e+03
+INFO:root:  training accuracy:		91.34 %
+INFO:root:  validation accuracy:		85.84 %
+INFO:root:Epoch 91: took 45.768s
+INFO:root:  training loss:	5.949397e+03
+INFO:root:  training accuracy:		91.35 %
+INFO:root:  validation accuracy:		86.05 %
+INFO:root:Epoch 92: took 45.693s
+INFO:root:  training loss:	5.896404e+03
+INFO:root:  training accuracy:		91.46 %
+INFO:root:  validation accuracy:		85.77 %
+INFO:root:Epoch 93: took 45.653s
+INFO:root:  training loss:	5.843961e+03
+INFO:root:  training accuracy:		91.45 %
+INFO:root:  validation accuracy:		85.80 %
+INFO:root:Epoch 94: took 45.592s
+INFO:root:  training loss:	5.892262e+03
+INFO:root:  training accuracy:		91.26 %
+INFO:root:  validation accuracy:		85.71 %
+INFO:root:Epoch 95: took 45.698s
+INFO:root:  training loss:	5.758449e+03
+INFO:root:  training accuracy:		91.60 %
+INFO:root:  validation accuracy:		85.52 %
+INFO:root:Epoch 96: took 45.632s
+INFO:root:  training loss:	5.837893e+03
+INFO:root:  training accuracy:		91.46 %
+INFO:root:  validation accuracy:		85.74 %
+INFO:root:Epoch 97: took 45.585s
+INFO:root:  training loss:	5.775516e+03
+INFO:root:  training accuracy:		91.80 %
+INFO:root:  validation accuracy:		85.65 %
+INFO:root:Epoch 98: took 45.772s
+INFO:root:  training loss:	5.828785e+03
+INFO:root:  training accuracy:		91.42 %
+INFO:root:  validation accuracy:		85.93 %
+INFO:root:Epoch 99: took 45.640s
+INFO:root:  training loss:	5.476365e+03
+INFO:root:  training accuracy:		92.09 %
+INFO:root:  validation accuracy:		85.74 %
+INFO:root:Epoch 100: took 45.682s
+INFO:root:  training loss:	5.676444e+03
+INFO:root:  training accuracy:		91.83 %
+INFO:root:  validation accuracy:		85.37 %
+INFO:root:Epoch 101: took 45.803s
+INFO:root:  training loss:	5.727780e+03
+INFO:root:  training accuracy:		91.92 %
+INFO:root:  validation accuracy:		85.71 %
+INFO:root:Epoch 102: took 45.795s
+INFO:root:  training loss:	5.672811e+03
+INFO:root:  training accuracy:		91.66 %
+INFO:root:  validation accuracy:		85.49 %
+INFO:root:Epoch 103: took 45.739s
+INFO:root:  training loss:	5.564950e+03
+INFO:root:  training accuracy:		91.85 %
+INFO:root:  validation accuracy:		85.52 %
+INFO:root:Epoch 104: took 48.919s
+INFO:root:  training loss:	5.564157e+03
+INFO:root:  training accuracy:		91.98 %
+INFO:root:  validation accuracy:		86.43 %
+INFO:root:  test accuracy:		86.48 %
+INFO:root:Epoch 105: took 45.836s
+INFO:root:  training loss:	5.487747e+03
+INFO:root:  training accuracy:		92.00 %
+INFO:root:  validation accuracy:		85.68 %
+INFO:root:Epoch 106: took 45.918s
+INFO:root:  training loss:	5.487171e+03
+INFO:root:  training accuracy:		92.10 %
+INFO:root:  validation accuracy:		85.96 %
+INFO:root:Epoch 107: took 48.090s
+INFO:root:  training loss:	5.489396e+03
+INFO:root:  training accuracy:		92.07 %
+INFO:root:  validation accuracy:		86.12 %
+INFO:root:Epoch 108: took 46.897s
+INFO:root:  training loss:	5.417532e+03
+INFO:root:  training accuracy:		92.05 %
+INFO:root:  validation accuracy:		85.84 %
+INFO:root:Epoch 109: took 48.342s
+INFO:root:  training loss:	5.348271e+03
+INFO:root:  training accuracy:		92.15 %
+INFO:root:  validation accuracy:		86.12 %
+INFO:root:Epoch 110: took 48.223s
+INFO:root:  training loss:	5.271545e+03
+INFO:root:  training accuracy:		92.21 %
+INFO:root:  validation accuracy:		85.87 %
+INFO:root:Epoch 111: took 47.463s
+INFO:root:  training loss:	5.429264e+03
+INFO:root:  training accuracy:		91.92 %
+INFO:root:  validation accuracy:		85.90 %
+INFO:root:Epoch 112: took 47.240s
+INFO:root:  training loss:	5.325430e+03
+INFO:root:  training accuracy:		92.28 %
+INFO:root:  validation accuracy:		85.55 %
+INFO:root:Epoch 113: took 47.508s
+INFO:root:  training loss:	5.220146e+03
+INFO:root:  training accuracy:		92.53 %
+INFO:root:  validation accuracy:		85.58 %
+INFO:root:Epoch 114: took 47.790s
+INFO:root:  training loss:	5.253838e+03
+INFO:root:  training accuracy:		92.23 %
+INFO:root:  validation accuracy:		85.99 %
+INFO:root:Epoch 115: took 47.599s
+INFO:root:  training loss:	5.214242e+03
+INFO:root:  training accuracy:		92.43 %
+INFO:root:  validation accuracy:		85.43 %
+INFO:root:Epoch 116: took 47.387s
+INFO:root:  training loss:	5.166481e+03
+INFO:root:  training accuracy:		92.43 %
+INFO:root:  validation accuracy:		85.84 %
+INFO:root:Epoch 117: took 47.182s
+INFO:root:  training loss:	4.992938e+03
+INFO:root:  training accuracy:		92.79 %
+INFO:root:  validation accuracy:		85.68 %
+INFO:root:Epoch 118: took 46.950s
+INFO:root:  training loss:	5.154626e+03
+INFO:root:  training accuracy:		92.35 %
+INFO:root:  validation accuracy:		85.84 %
+INFO:root:Epoch 119: took 47.089s
+INFO:root:  training loss:	5.122609e+03
+INFO:root:  training accuracy:		92.51 %
+INFO:root:  validation accuracy:		86.27 %
+INFO:root:Epoch 120: took 46.687s
+INFO:root:  training loss:	5.094251e+03
+INFO:root:  training accuracy:		92.55 %
+INFO:root:  validation accuracy:		86.05 %
+INFO:root:Epoch 121: took 47.406s
+INFO:root:  training loss:	5.215688e+03
+INFO:root:  training accuracy:		92.32 %
+INFO:root:  validation accuracy:		85.90 %
+INFO:root:Epoch 122: took 47.763s
+INFO:root:  training loss:	4.966868e+03
+INFO:root:  training accuracy:		92.88 %
+INFO:root:  validation accuracy:		85.71 %
+INFO:root:Epoch 123: took 51.545s
+INFO:root:  training loss:	5.019078e+03
+INFO:root:  training accuracy:		92.66 %
+INFO:root:  validation accuracy:		85.80 %
+INFO:root:Epoch 124: took 53.171s
+INFO:root:  training loss:	5.029346e+03
+INFO:root:  training accuracy:		92.61 %
+INFO:root:  validation accuracy:		85.74 %
+INFO:root:Epoch 125: took 50.192s
+INFO:root:  training loss:	5.000677e+03
+INFO:root:  training accuracy:		92.79 %
+INFO:root:  validation accuracy:		85.65 %
+INFO:root:Epoch 126: took 48.684s
+INFO:root:  training loss:	4.866130e+03
+INFO:root:  training accuracy:		92.83 %
+INFO:root:  validation accuracy:		85.84 %
+INFO:root:Epoch 127: took 54.779s
+INFO:root:  training loss:	4.905898e+03
+INFO:root:  training accuracy:		92.94 %
+INFO:root:  validation accuracy:		85.84 %
+INFO:root:Epoch 128: took 54.222s
+INFO:root:  training loss:	4.925798e+03
+INFO:root:  training accuracy:		92.64 %
+INFO:root:  validation accuracy:		85.90 %
+INFO:root:Epoch 129: took 54.291s
+INFO:root:  training loss:	4.778543e+03
+INFO:root:  training accuracy:		93.07 %
+INFO:root:  validation accuracy:		85.74 %
+INFO:root:Epoch 130: took 54.117s
+INFO:root:  training loss:	4.770977e+03
+INFO:root:  training accuracy:		92.82 %
+INFO:root:  validation accuracy:		86.40 %
+INFO:root:Epoch 131: took 54.214s
+INFO:root:  training loss:	4.729223e+03
+INFO:root:  training accuracy:		93.10 %
+INFO:root:  validation accuracy:		85.87 %
+INFO:root:Epoch 132: took 54.216s
+INFO:root:  training loss:	4.859900e+03
+INFO:root:  training accuracy:		93.02 %
+INFO:root:  validation accuracy:		85.93 %
+INFO:root:Epoch 133: took 54.459s
+INFO:root:  training loss:	4.801930e+03
+INFO:root:  training accuracy:		92.98 %
+INFO:root:  validation accuracy:		85.49 %
+INFO:root:Epoch 134: took 53.978s
+INFO:root:  training loss:	4.887396e+03
+INFO:root:  training accuracy:		92.86 %
+INFO:root:  validation accuracy:		85.77 %
+INFO:root:Epoch 135: took 54.801s
+INFO:root:  training loss:	4.799312e+03
+INFO:root:  training accuracy:		93.08 %
+INFO:root:  validation accuracy:		85.84 %
+INFO:root:Epoch 136: took 55.336s
+INFO:root:  training loss:	4.624924e+03
+INFO:root:  training accuracy:		93.24 %
+INFO:root:  validation accuracy:		86.05 %
+INFO:root:Epoch 137: took 55.048s
+INFO:root:  training loss:	4.702848e+03
+INFO:root:  training accuracy:		93.06 %
+INFO:root:  validation accuracy:		85.77 %
+INFO:root:Epoch 138: took 54.218s
+INFO:root:  training loss:	4.626134e+03
+INFO:root:  training accuracy:		93.20 %
+INFO:root:  validation accuracy:		86.09 %
+INFO:root:Epoch 139: took 54.465s
+INFO:root:  training loss:	4.635274e+03
+INFO:root:  training accuracy:		93.26 %
+INFO:root:  validation accuracy:		85.84 %
+INFO:root:Epoch 140: took 54.130s
+INFO:root:  training loss:	4.575166e+03
+INFO:root:  training accuracy:		93.34 %
+INFO:root:  validation accuracy:		85.80 %
+INFO:root:Epoch 141: took 54.203s
+INFO:root:  training loss:	4.554882e+03
+INFO:root:  training accuracy:		93.24 %
+INFO:root:  validation accuracy:		85.77 %
+INFO:root:Epoch 142: took 54.423s
+INFO:root:  training loss:	4.566338e+03
+INFO:root:  training accuracy:		93.40 %
+INFO:root:  validation accuracy:		85.65 %
+INFO:root:Epoch 143: took 54.214s
+INFO:root:  training loss:	4.612947e+03
+INFO:root:  training accuracy:		93.23 %
+INFO:root:  validation accuracy:		86.12 %
+INFO:root:Epoch 144: took 54.424s
+INFO:root:  training loss:	4.452955e+03
+INFO:root:  training accuracy:		93.51 %
+INFO:root:  validation accuracy:		85.96 %
+INFO:root:Epoch 145: took 54.340s
+INFO:root:  training loss:	4.559620e+03
+INFO:root:  training accuracy:		93.26 %
+INFO:root:  validation accuracy:		85.77 %
+INFO:root:Epoch 146: took 54.098s
+INFO:root:  training loss:	4.550734e+03
+INFO:root:  training accuracy:		93.26 %
+INFO:root:  validation accuracy:		85.80 %
+INFO:root:Epoch 147: took 54.215s
+INFO:root:  training loss:	4.441983e+03
+INFO:root:  training accuracy:		93.44 %
+INFO:root:  validation accuracy:		86.02 %
+INFO:root:Epoch 148: took 54.218s
+INFO:root:  training loss:	4.395929e+03
+INFO:root:  training accuracy:		93.42 %
+INFO:root:  validation accuracy:		85.77 %
+INFO:root:Epoch 149: took 54.841s
+INFO:root:  training loss:	4.294079e+03
+INFO:root:  training accuracy:		93.62 %
+INFO:root:  validation accuracy:		85.80 %
+INFO:root:Epoch 150: took 54.972s
+INFO:root:  training loss:	4.308049e+03
+INFO:root:  training accuracy:		93.66 %
+INFO:root:  validation accuracy:		86.18 %
+INFO:root:Epoch 151: took 54.223s
+INFO:root:  training loss:	4.337270e+03
+INFO:root:  training accuracy:		93.77 %
+INFO:root:  validation accuracy:		85.52 %
+INFO:root:Epoch 152: took 54.037s
+INFO:root:  training loss:	4.366560e+03
+INFO:root:  training accuracy:		93.67 %
+INFO:root:  validation accuracy:		85.96 %
+INFO:root:Epoch 153: took 55.008s
+INFO:root:  training loss:	4.352401e+03
+INFO:root:  training accuracy:		93.57 %
+INFO:root:  validation accuracy:		85.96 %
+INFO:root:Epoch 154: took 54.291s
+INFO:root:  training loss:	4.303170e+03
+INFO:root:  training accuracy:		93.72 %
+INFO:root:  validation accuracy:		86.15 %
+INFO:root:Epoch 155: took 54.340s
+INFO:root:  training loss:	4.236064e+03
+INFO:root:  training accuracy:		93.97 %
+INFO:root:  validation accuracy:		86.12 %
+INFO:root:Epoch 156: took 55.354s
+INFO:root:  training loss:	4.347515e+03
+INFO:root:  training accuracy:		93.62 %
+INFO:root:  validation accuracy:		86.24 %
+INFO:root:Epoch 157: took 54.052s
+INFO:root:  training loss:	4.273498e+03
+INFO:root:  training accuracy:		93.76 %
+INFO:root:  validation accuracy:		86.12 %
+INFO:root:Epoch 158: took 53.855s
+INFO:root:  training loss:	4.354586e+03
+INFO:root:  training accuracy:		93.64 %
+INFO:root:  validation accuracy:		85.55 %
+INFO:root:Epoch 159: took 49.967s
+INFO:root:  training loss:	4.209565e+03
+INFO:root:  training accuracy:		93.76 %
+INFO:root:  validation accuracy:		85.90 %
+INFO:root:Epoch 160: took 47.693s
+INFO:root:  training loss:	4.143819e+03
+INFO:root:  training accuracy:		93.92 %
+INFO:root:  validation accuracy:		85.87 %
+INFO:root:Epoch 161: took 46.748s
+INFO:root:  training loss:	4.055796e+03
+INFO:root:  training accuracy:		94.09 %
+INFO:root:  validation accuracy:		85.80 %
+INFO:root:Epoch 162: took 47.028s
+INFO:root:  training loss:	4.177443e+03
+INFO:root:  training accuracy:		93.89 %
+INFO:root:  validation accuracy:		85.93 %
+INFO:root:Epoch 163: took 47.257s
+INFO:root:  training loss:	4.014877e+03
+INFO:root:  training accuracy:		93.99 %
+INFO:root:  validation accuracy:		85.87 %
+INFO:root:Epoch 164: took 48.371s
+INFO:root:  training loss:	4.151257e+03
+INFO:root:  training accuracy:		93.92 %
+INFO:root:  validation accuracy:		86.18 %
+INFO:root:Epoch 165: took 47.652s
+INFO:root:  training loss:	3.902250e+03
+INFO:root:  training accuracy:		94.29 %
+INFO:root:  validation accuracy:		86.02 %
+INFO:root:Epoch 166: took 47.801s
+INFO:root:  training loss:	4.024069e+03
+INFO:root:  training accuracy:		93.99 %
+INFO:root:  validation accuracy:		85.46 %
+INFO:root:Epoch 167: took 49.472s
+INFO:root:  training loss:	3.952890e+03
+INFO:root:  training accuracy:		94.16 %
+INFO:root:  validation accuracy:		85.87 %
+INFO:root:Epoch 168: took 48.214s
+INFO:root:  training loss:	3.982746e+03
+INFO:root:  training accuracy:		94.21 %
+INFO:root:  validation accuracy:		85.65 %
+INFO:root:Epoch 169: took 48.282s
+INFO:root:  training loss:	3.913049e+03
+INFO:root:  training accuracy:		94.14 %
+INFO:root:  validation accuracy:		86.27 %
+INFO:root:Epoch 170: took 47.468s
+INFO:root:  training loss:	3.886757e+03
+INFO:root:  training accuracy:		94.29 %
+INFO:root:  validation accuracy:		85.99 %
+INFO:root:Epoch 171: took 48.254s
+INFO:root:  training loss:	3.882330e+03
+INFO:root:  training accuracy:		94.42 %
+INFO:root:  validation accuracy:		85.84 %
+INFO:root:Epoch 172: took 47.226s
+INFO:root:  training loss:	3.960490e+03
+INFO:root:  training accuracy:		94.17 %
+INFO:root:  validation accuracy:		85.52 %
+INFO:root:Epoch 173: took 47.055s
+INFO:root:  training loss:	3.839193e+03
+INFO:root:  training accuracy:		94.35 %
+INFO:root:  validation accuracy:		85.21 %
+INFO:root:Epoch 174: took 46.583s
+INFO:root:  training loss:	3.739724e+03
+INFO:root:  training accuracy:		94.45 %
+INFO:root:  validation accuracy:		85.80 %
+INFO:root:Epoch 175: took 46.546s
+INFO:root:  training loss:	3.846581e+03
+INFO:root:  training accuracy:		94.37 %
+INFO:root:  validation accuracy:		86.21 %
+INFO:root:Epoch 176: took 46.423s
+INFO:root:  training loss:	3.841220e+03
+INFO:root:  training accuracy:		94.43 %
+INFO:root:  validation accuracy:		85.80 %
+INFO:root:Epoch 177: took 46.349s
+INFO:root:  training loss:	3.764929e+03
+INFO:root:  training accuracy:		94.47 %
+INFO:root:  validation accuracy:		85.96 %
+INFO:root:Epoch 178: took 46.399s
+INFO:root:  training loss:	3.911147e+03
+INFO:root:  training accuracy:		94.17 %
+INFO:root:  validation accuracy:		85.87 %
+INFO:root:Epoch 179: took 46.771s
+INFO:root:  training loss:	3.670980e+03
+INFO:root:  training accuracy:		94.59 %
+INFO:root:  validation accuracy:		85.96 %
+INFO:root:Epoch 180: took 47.580s
+INFO:root:  training loss:	3.642539e+03
+INFO:root:  training accuracy:		94.64 %
+INFO:root:  validation accuracy:		85.87 %
+INFO:root:Epoch 181: took 50.749s
+INFO:root:  training loss:	3.783532e+03
+INFO:root:  training accuracy:		94.53 %
+INFO:root:  validation accuracy:		85.68 %
+INFO:root:Epoch 182: took 50.191s
+INFO:root:  training loss:	3.755133e+03
+INFO:root:  training accuracy:		94.25 %
+INFO:root:  validation accuracy:		85.77 %
+INFO:root:Epoch 183: took 48.407s
+INFO:root:  training loss:	3.726169e+03
+INFO:root:  training accuracy:		94.54 %
+INFO:root:  validation accuracy:		85.55 %
+INFO:root:Epoch 184: took 50.344s
+INFO:root:  training loss:	3.656383e+03
+INFO:root:  training accuracy:		94.51 %
+INFO:root:  validation accuracy:		86.34 %
+INFO:root:Epoch 185: took 49.386s
+INFO:root:  training loss:	3.688534e+03
+INFO:root:  training accuracy:		94.43 %
+INFO:root:  validation accuracy:		85.68 %
+INFO:root:Epoch 186: took 48.799s
+INFO:root:  training loss:	3.762372e+03
+INFO:root:  training accuracy:		94.35 %
+INFO:root:  validation accuracy:		85.84 %
+INFO:root:Epoch 187: took 50.376s
+INFO:root:  training loss:	3.662601e+03
+INFO:root:  training accuracy:		94.56 %
+INFO:root:  validation accuracy:		85.55 %
+INFO:root:Epoch 188: took 50.877s
+INFO:root:  training loss:	3.671269e+03
+INFO:root:  training accuracy:		94.69 %
+INFO:root:  validation accuracy:		85.87 %
+INFO:root:Epoch 189: took 50.203s
+INFO:root:  training loss:	3.611938e+03
+INFO:root:  training accuracy:		94.67 %
+INFO:root:  validation accuracy:		85.55 %
+INFO:root:Epoch 190: took 51.093s
+INFO:root:  training loss:	3.578994e+03
+INFO:root:  training accuracy:		94.70 %
+INFO:root:  validation accuracy:		85.49 %
+INFO:root:Epoch 191: took 49.694s
+INFO:root:  training loss:	3.622252e+03
+INFO:root:  training accuracy:		94.63 %
+INFO:root:  validation accuracy:		86.02 %
+INFO:root:Epoch 192: took 49.184s
+INFO:root:  training loss:	3.571411e+03
+INFO:root:  training accuracy:		94.77 %
+INFO:root:  validation accuracy:		85.05 %
+INFO:root:Epoch 193: took 50.926s
+INFO:root:  training loss:	3.523208e+03
+INFO:root:  training accuracy:		94.78 %
+INFO:root:  validation accuracy:		86.02 %
+INFO:root:Epoch 194: took 51.023s
+INFO:root:  training loss:	3.451812e+03
+INFO:root:  training accuracy:		94.87 %
+INFO:root:  validation accuracy:		85.99 %
+INFO:root:Epoch 195: took 50.692s
+INFO:root:  training loss:	3.630334e+03
+INFO:root:  training accuracy:		94.70 %
+INFO:root:  validation accuracy:		85.80 %
+INFO:root:Epoch 196: took 50.883s
+INFO:root:  training loss:	3.493975e+03
+INFO:root:  training accuracy:		94.96 %
+INFO:root:  validation accuracy:		86.05 %
+INFO:root:Epoch 197: took 54.603s
+INFO:root:  training loss:	3.468788e+03
+INFO:root:  training accuracy:		94.96 %
+INFO:root:  validation accuracy:		86.49 %
+INFO:root:  test accuracy:		86.71 %
+INFO:root:Epoch 198: took 51.288s
+INFO:root:  training loss:	3.403868e+03
+INFO:root:  training accuracy:		95.00 %
+INFO:root:  validation accuracy:		86.21 %
+INFO:root:Epoch 199: took 51.450s
+INFO:root:  training loss:	3.454888e+03
+INFO:root:  training accuracy:		94.96 %
+INFO:root:  validation accuracy:		85.68 %
+INFO:root:
+INFO:root:Best validation accuracy:		86.49 %, epoch 197
+INFO:root:Test accuracy corresponding to best validation:		86.71 %
+INFO:root:Best test accuracy:		86.71 %

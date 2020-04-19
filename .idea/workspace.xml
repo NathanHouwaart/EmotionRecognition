@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="572da756-b09f-4595-ad8c-cd04d9a8cfde" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/train.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -28,28 +29,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="1" />
-          <entry key="log" value="1" />
+          <entry key="gitignore" value="2" />
+          <entry key="log" value="3" />
           <entry key="py" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Git file" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Git file" value="2" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Python" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="classify_emotion" value="9" />
-          <entry key="gitignore" value="33" />
+          <entry key="gitignore" value="49" />
+          <entry key="log" value="1" />
           <entry key="py" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Git file" value="33" />
+          <entry key="Git file" value="49" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="72" />
         </counts>
       </usages-collector>
@@ -90,11 +93,25 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/out/models/VGG13_majority - 200 epoch/train.log">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+            <state relative-caret-position="51">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/train.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -129,6 +146,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/classify_emotion.py" />
+        <option value="$PROJECT_DIR$/src/out/models/train.log" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -171,13 +189,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="FERPlus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FERPlus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -190,9 +201,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Nathan\Bestanden\R2D2-2020\Research\FERPlus\src" />
       <recent name="D:\Nathan\Bestanden\R2D2-2020\Research\FERPlus\src\test_img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Nathan\Bestanden\R2D2-2020\Research\FERPlus\src\out\models" />
       <recent name="D:\Nathan\Bestanden\R2D2-2020\Research\FERPlus\src\test_img" />
     </key>
   </component>
@@ -450,11 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test_img/classify_emotion.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1348" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classify_emotion.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -465,10 +473,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test_img/classify_emotion.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1348" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/out/models/VGG13_majority - 200 epoch/train.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/train.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        <state relative-caret-position="51">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>
